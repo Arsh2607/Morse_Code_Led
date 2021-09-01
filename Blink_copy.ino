@@ -52,8 +52,9 @@ void Morse(char alph) // Contains the data about each individual character and i
 {
   if (alph == 'a')
   {
+     Dot();
     Dash();
-    Dot();
+  
   }
 
   if (alph == 'b')
